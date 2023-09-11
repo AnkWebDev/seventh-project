@@ -16,6 +16,7 @@ body{
 
 
 ul,li,a{
+    cursor: pointer;
     list-style: none;
     padding: 0;
 text-decoration: none;}
@@ -172,22 +173,24 @@ header{
 
 
 i.fa-solid.fa-bars.trigger {
-    cursor:pointer;
     color: #222;
     font-size: 24px;
     font-weight: 900;
-    display: none;}
+    display: none;
+    cursor: pointer;
+}
 
 
 .hide-show{
     position: fixed;
-
-    left: -300px;
+    left: -400px;
+    padding: 2rem;
     top: 0px;
     height: 100%;
     z-index: 999;
-    width: 300px;
+    width: 400px;
     transition: .5s;
+    background: rgb(16, 16, 16, 0.9);
 }
 
 
@@ -195,32 +198,32 @@ i.fa-solid.fa-bars.trigger {
 
 .click-thn-opn{
     justify-content: space-between;
-    align-items: center;
-    background: black;
+    text-align: center;
     height: 100%;
     /* width: 400px; */
     display: block;
     z-index: 999;
     opacity: 0.7;
+    padding-top: 2rem;
 }
 
 .click-thn-opn li{
-    margin-left: 10px;
+    margin-top: 1rem;
     position: relative;
     display: block;
 }
 
 .click-thn-opn li a{
-    /* padding: 10px 8px 10px 8px;  */
     text-decoration: none;
     /* color: #222; */
     font-weight: 400;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     display: block;
     text-transform: uppercase;
     padding: 14px;
     font-weight: bold;
+    background: blue;
 }
 
 
@@ -1179,6 +1182,10 @@ margin-bottom: 16px;
         .page-center-container {
             max-width: 1140px;
           }
+          
+          .hide-show{
+            display: none;
+          }
     }
     
     
@@ -1195,7 +1202,11 @@ margin-bottom: 16px;
             padding: 0px 200px;
             margin: 20px 0;
           }
-
+          
+          .hide-show{
+            display: none;
+          }
+        
        
 
     }
@@ -1236,21 +1247,26 @@ margin-bottom: 16px;
           .lets-start-left{
             text-align: center;
           }
-.eaxc-start{
-    flex-wrap: wrap;
-    text-align: center;
-}.eaxc-flex-1{
-    padding: 20px;
-    width: 100%;
-}
-.fedd-no-2,.fedd-no-2{
-    width: 100%;
-    margin: 20px 0;
-}
-.feed-flex{
-    flex-wrap: wrap;
-    text-align: center;
-}
+        .eaxc-start{
+            flex-wrap: wrap;
+            text-align: center;
+        }.eaxc-flex-1{
+            padding: 20px;
+            width: 100%;
+        }
+        .fedd-no-2,.fedd-no-2{
+            width: 100%;
+            margin: 20px 0;
+        }
+        .feed-flex{
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        
+        .hide-show{
+            width: 700px;
+            display: none;
+          }
 
 
     }
