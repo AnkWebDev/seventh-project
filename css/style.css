@@ -693,6 +693,8 @@ margin-bottom: 15px;
     margin-bottom: 16px;
 }
 
+
+
 .boder-1{
     background-color: #fab700;
     border-radius: 50px;
@@ -710,6 +712,10 @@ margin-bottom: 15px;
 .red{
 color: red;
 }
+
+
+
+
 .project-aaera{
 padding: 120px 0;
 }
@@ -829,9 +835,13 @@ margin-bottom: 15px;
     opacity: 0.9;
 }
 
+
+
 .feed-headinng p{    color: white;
     margin-bottom: 15px;
     opacity: 0.9;
+
+    
 }
 
 
@@ -852,6 +862,8 @@ margin-bottom: 15px;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .fedd-no-1{
     padding: 130px 0;
@@ -1124,28 +1136,6 @@ margin-bottom: 16px;
     transform: scale(1.2);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:767px){
 
     .round-parent{
@@ -1165,12 +1155,6 @@ margin-bottom: 16px;
 
   
 }
-
-
-
-
-
-
 
     @media(max-width:1300px) and (min-width:1200px){
         .page-center-container {
@@ -1200,20 +1184,8 @@ margin-bottom: 16px;
           .hide-show{
             display: none;
           }
-        
-       
-
     }
-    
-    
-
-
-
-
-
-
-    
-    
+   
     @media(max-width:991px) and (min-width:768px){
         .page-center-container {
             max-width: 720px;
@@ -1261,19 +1233,8 @@ margin-bottom: 16px;
             width: 700px;
             display: none;
           }
+ }
 
-
-    }
-    
-    
-
-
-
-
-
-
-
-    
     @media (max-width:766px)  and (min-width:476px){
         .page-center-container {
           max-width: 540px;
@@ -1332,21 +1293,6 @@ margin-bottom: 16px;
        }
     
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
       @media(max-width:475px){
         .page-center-container{
@@ -1414,8 +1360,5 @@ margin-bottom: 16px;
             flex-wrap: wrap;
            }.cmpny-n01{
             width: 100%;
-           }
-        
-        
+           } 
       }
-    
