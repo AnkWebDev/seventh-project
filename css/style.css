@@ -223,7 +223,13 @@ i.fa-solid.fa-bars.trigger {
     text-transform: uppercase;
     padding: 14px;
     font-weight: bold;
-    background: blue;
+    transition: .3s ease-in;
+    border-bottom: 2px solid transparent;
+}
+.click-thn-opn li a:hover{
+    color: #1a9df4;
+    border-bottom: 2px solid #1a9df4;
+    transition: .3s ease-in;
 }
 
 
@@ -687,8 +693,6 @@ margin-bottom: 15px;
     margin-bottom: 16px;
 }
 
-
-
 .boder-1{
     background-color: #fab700;
     border-radius: 50px;
@@ -706,10 +710,6 @@ margin-bottom: 15px;
 .red{
 color: red;
 }
-
-
-
-
 .project-aaera{
 padding: 120px 0;
 }
@@ -829,13 +829,9 @@ margin-bottom: 15px;
     opacity: 0.9;
 }
 
-
-
 .feed-headinng p{    color: white;
     margin-bottom: 15px;
     opacity: 0.9;
-
-    
 }
 
 
@@ -856,8 +852,6 @@ margin-bottom: 15px;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .fedd-no-1{
     padding: 130px 0;
@@ -1424,9 +1418,4 @@ margin-bottom: 16px;
         
         
       }
-
-
-
-
-
     
